@@ -242,7 +242,7 @@ body {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  height: 100vh;
+  padding: 5rem;
 }
 
 .portfolio h1 {
@@ -262,7 +262,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 2.4rem;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .column-text {
@@ -293,12 +293,9 @@ body {
   margin-right: 5px;
 }
 
-.portfolio-gallery-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 5rem;
-}
+/* .portfolio-gallery-container {
+  width: 100%;
+} */
 
 .portfolio-imgs {
   display: flex;
@@ -594,4 +591,28 @@ body {
 .social-media img {
   margin-top: 10.5rem;
   padding: 5px;
+}
+
+@media screen and (min-width: 1921px) {
+  .portfolio-gallery-container {
+    width: 100%;
+  }
+
+  .portfolio-imgs {
+    width: 100%;
+  }
+
+  body {
+    width: 100%;
+  }
+  .team-card-container {
+    width: 40%;
+    position: relative;
+    right: 20px;
+  }
+
+  .overlay-box .bottom {
+    position: relative;
+    right: 30px;
+  }
 }
